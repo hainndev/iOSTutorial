@@ -39,6 +39,7 @@
     }
 }
 
+//Get suit
 -(NSString *) suit {
     return _suit ? _suit : @"?";
 }
