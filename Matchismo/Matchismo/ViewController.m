@@ -17,7 +17,7 @@
 
 @implementation ViewController
 
-//methord getDeck 
+//methord getDeck hai
 - (Deck *) deck{
     if(!_deck){
         _deck = [self createDeck];
