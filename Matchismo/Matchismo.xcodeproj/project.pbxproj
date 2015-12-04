@@ -51,21 +51,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		71399B4A1C036EB70072AD0F /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				71399B471C036D480072AD0F /* Card.h */,
-				71399B481C036D480072AD0F /* Card.m */,
-				71399B4B1C0374140072AD0F /* PlayingCard.h */,
-				71399B4C1C0374140072AD0F /* PlayingCard.m */,
-				71399B4E1C0374B10072AD0F /* Deck.h */,
-				71399B4F1C0374B10072AD0F /* Deck.m */,
-				71399B511C0374FC0072AD0F /* PlayingCardDeck.h */,
-				71399B521C0374FC0072AD0F /* PlayingCardDeck.m */,
-			);
-			name = Model;
-			sourceTree = "<group>";
-		};
 		71B1CB771BF4E5C4005D1E01 = {
 			isa = PBXGroup;
 			children = (
@@ -88,7 +73,7 @@
 				71B1CB891BF4E5C4005D1E01 /* ViewController.h */,
 				71B1CB8A1BF4E5C4005D1E01 /* ViewController.m */,
 				71B1CB8C1BF4E5C4005D1E01 /* Main.storyboard */,
-				71399B4A1C036EB70072AD0F /* Model */,
+				71F462EF1C11FAB700AF76D3 /* Model */,
 				71B1CB8F1BF4E5C4005D1E01 /* Assets.xcassets */,
 				71B1CB911BF4E5C4005D1E01 /* LaunchScreen.storyboard */,
 				71B1CB941BF4E5C4005D1E01 /* Info.plist */,
@@ -105,6 +90,21 @@
 				71B1CB841BF4E5C4005D1E01 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71F462EF1C11FAB700AF76D3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				71399B471C036D480072AD0F /* Card.h */,
+				71399B481C036D480072AD0F /* Card.m */,
+				71399B4B1C0374140072AD0F /* PlayingCard.h */,
+				71399B4C1C0374140072AD0F /* PlayingCard.m */,
+				71399B4E1C0374B10072AD0F /* Deck.h */,
+				71399B4F1C0374B10072AD0F /* Deck.m */,
+				71399B511C0374FC0072AD0F /* PlayingCardDeck.h */,
+				71399B521C0374FC0072AD0F /* PlayingCardDeck.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
